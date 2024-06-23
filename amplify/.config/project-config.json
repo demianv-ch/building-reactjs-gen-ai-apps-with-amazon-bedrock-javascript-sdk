@@ -1,0 +1,17 @@
+{
+  "projectName": "buildingreactjsgenai",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "reactjs-gen-ai-apps/src",
+      "DistributionDir": "reactjs-gen-ai-apps/dist",
+      "BuildCommand": "npm run build --prefix reactjs-gen-ai-apps",
+      "StartCommand": "npm run dev --prefix reactjs-gen-ai-apps"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}

@@ -23,6 +23,13 @@ dist-ssr
 *.sln
 *.sw?
 
+*.ipynb
+.vscode/
+.DS_Store
+*.csv
+team-provider-info.json
+amplify/team-provider-info.json
+
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
@@ -44,9 +51,3 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
-*.ipynb
-.vscode/
-.DS_Store
-*.csv
-team-provider-info.json
-amplify/team-provider-info.json
